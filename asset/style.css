@@ -1,0 +1,434 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@500;700;900&display=swap');
+
+html{
+   font-size: 10px;
+   font-family: 'Barlow', sans-serif;
+}
+body{
+   width: 100vw; 
+   height: 100vh;
+   overflow-x: hidden;
+}
+
+header{
+   padding-top: 2.4rem;
+   padding-left: 2.4rem;
+   padding-right: 2.4rem;
+   padding-bottom: 6.4rem;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+}
+
+.btn{
+   text-transform:uppercase;
+   font-size: 1.6rem;
+   font-weight: 700;
+   line-height: 2.6rem;
+   height: 4.8rem;
+   width: 15rem;
+   border-radius: 8px;
+   border: none;
+   text-align: center;
+   text-decoration: none; 
+   font-family: 'Barlow', sans-serif;
+   cursor: pointer;
+}
+
+.btn-grey{
+   color: #162542;
+   background: #E8EFF2;
+}
+
+main{
+   overflow-x: hidden;
+}
+
+.box{
+   display: none;
+}
+.typemaster{
+    display: flex; 
+   flex-direction: column;
+   align-items: center;
+}
+.content{
+   padding-bottom: 6.4rem;
+   width: 32.7rem;
+   align-self: c;
+}
+
+h1{
+   font-size: 4.8rem;
+   font-weight: 900;
+   line-height: 4.8rem;
+   text-align: left;
+   text-transform:uppercase;
+   color: #162542;
+   padding-bottom: 3.2rem;
+}
+
+.typemaster-description{
+   font-size: 1.6rem;
+   font-weight: 500;
+   line-height: 2.6rem;
+   text-align: left;
+   color: #7B8BAD;
+   padding-bottom: 3.2rem;
+}
+
+.btn-orange{
+   color: #FFFFFF;
+   background: #F16718;
+}
+
+.release{
+   font-size: 1.6rem;
+   font-weight: 700;
+   line-height: 2.6rem;
+   text-align: left;
+   color: #7B8BAD;
+   text-transform:uppercase;
+   padding-left: 3.2rem;
+}
+
+.image-keybord{
+   height: 33.1rem;
+   width: 37.2rem;
+   background-image: url(images/image-keyboard-mobile.jpg);
+   background-size:  37.2rem 33.1rem;
+   background-repeat: no-repeat;
+   margin-left: 2.4rem;
+   margin-bottom: 2.4rem;
+   border-radius:1.6rem;
+}
+
+.images{
+   display: flex;
+}
+
+.image-phone-and-keybord{
+   background-image: url(images/image-phone-and-keyboard-mobile.jpg);
+   background-repeat: no-repeat;
+   background-size: 12.9rem 19.3rem;
+   height: 19.3rem;
+   width: 12.9rem;
+   border-radius: 1.6rem;
+   background-color: #F16718;
+   background-blend-mode: multiply;
+   /* opacity: 0.75; */
+   margin-left: -2.2rem;
+}
+
+.image-glass-and-keyboard{
+   background-image: url(images/image-glass-and-keyboard-mobile.jpg);
+   background-repeat: no-repeat;
+   height: 19.3rem;
+   width: 22rem;
+   border-radius: 1.6rem;
+   background-size: 22rem 19.3rem;
+   margin-left: 1.9rem;
+}
+
+.mechanical{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   gap: 2.4rem;
+   padding-top: 7.5rem;
+   padding-bottom: 4.7rem;
+}
+
+h2{
+   font-size: 3.2rem;
+   font-weight: 900;
+   line-height: 3.6rem;
+   text-align: center;
+   color: #162542;
+   height: 108px;
+   width: 255px;
+   text-transform:uppercase;
+}
+
+.mechanical-description{
+   font-size: 1.6rem;
+   font-weight: 500;
+   line-height: 2.6rem;
+   text-align: center;   
+   color: #7B8BAD;
+   height: 104px;
+   width: 327px;
+}
+
+.card{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding-top: 6.4rem;
+}
+
+.icon-cont{
+   background: #F16718;
+   width: 6.5rem;
+   height: 6.5rem;
+   border-radius: 16px;
+   display: flex;
+   align-content: center;
+   justify-content: center;
+   align-items: center;
+   margin-bottom: 4.8rem;
+}
+
+h3{
+   font-size: 2.4rem;
+   font-weight: 900;
+   line-height: 2.8rem;
+   text-align: center;
+   color: #162542;
+   padding-bottom: 2.4rem;
+}
+
+.card-description{
+   font-size: 1.6rem;
+   font-weight: 500;
+   line-height: 2.6rem;
+   text-align: center;
+   color: #7B8BAD;
+   height: 10.4rem;
+   width: 32.7rem;
+}
+
+footer{
+   padding-top: 9.6rem;
+   padding-bottom: 5rem;
+}
+
+.footer-text{
+font-size: 1.6rem;
+font-weight: 500;
+line-height: 2.6rem;
+text-align: center;
+color: #7B8BAD;
+}
+
+.first-half{
+   font-weight: 700;
+
+}
+
+   @media screen and (min-width: 768px) {
+      header{
+      padding-top: 4rem;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      padding-bottom: 6.2rem;
+      }
+
+      .btn{
+      height: 58px;
+      width: 175px;
+      }
+
+      .typemaster{
+       display: flex;
+       flex-direction: row;
+      }
+
+      .content{
+         width: 33.9rem;
+         margin-left: 3.9rem;
+         padding-top: 6.9rem;
+      }
+
+      h1{
+         padding-bottom:3.4rem;
+      }
+
+      .typemaster-description{
+         padding-bottom: 3.9rem;
+      }
+
+      .image-keybord{
+         background-image: url(images/image-keyboard-tablet.jpg);
+         height: 42.5rem;
+         width: 47.8rem;
+         background-size: 47.8rem 42.5rem;
+         margin-bottom: 4rem;
+         /* margin-left: 69px; */
+         margin-right: -157px;
+      }
+
+      .image-phone-and-keybord {
+         background-image: url(images/image-phone-and-keyboard-tablet.jpg);
+         height: 32rem;
+         width: 21.4rem;
+         background-size: 21.4rem 32rem;
+         margin-left: 39px;
+      }
+
+      .image-glass-and-keyboard {
+         background-image: url(images/image-glass-and-keyboard-tablet.jpg);
+         height: 32rem;
+         width: 44.5rem;
+         background-size: 44.5rem 32rem;
+         margin-left: 3.05rem;
+      } 
+
+      .mechanical{
+         flex-direction: row;
+         padding-top: 7.2rem;
+      }
+
+      h2{
+         text-align: left;
+      }
+
+      .mechanical-description{
+         height: 7.8rem;
+         width: 39.8rem;
+         text-align: left;
+      }
+      
+      .card-conteiner{
+         display: grid;
+         grid-template-columns: 50% 50%;
+         padding-left: 3.9rem;
+         padding-right: 9.8rem;
+         padding-top: 7rem;
+         column-gap: 2rem;
+      }
+
+      .card{
+         align-items: flex-start;
+         padding-top: 7.2rem;
+      }
+
+      .icon-cont{
+         margin-bottom: 4.8rem;
+      }
+
+      h3{
+         text-align: left;
+      }
+
+      .card-description{
+         text-align: left;
+         height: 10.4rem;
+         width: 28.1rem;
+      }
+
+      footer{
+         padding-top: 14.2rem;
+         padding-bottom: 4.3rem;
+      }
+   }
+
+   @media screen and (min-width: 1440px) {
+      header{
+         padding-left: 16.5rem;
+         padding-top: 5.5rem;
+         padding-right: 16.5rem;
+         padding-bottom: 8.3rem;
+      }
+
+      .btn-grey:hover {
+         background: #162542;
+         color: white;
+   }
+
+   .btn-orange:hover {
+      background: #FF9B62;
+   }
+
+   .content{
+      padding-left: 16.5rem;
+      width: 44.5rem;
+   }
+
+   h1{
+      font-size: 5.6rem;
+      line-height: 5.6rem;
+      padding-bottom: 2.4rem;
+   }
+
+   .typemaster{
+   justify-content: space-between;
+   align-items: flex-start;
+   }
+   .box{
+      display: flex;
+      margin-right: -119px;
+      margin-left: 3;
+   }
+
+   .typemaster-description{
+      font-size: 1.8rem;
+   }
+
+   .release{
+      padding-left: 4rem;
+   }
+
+   .image-keybord{
+      background-image: url(images/image-keyboard.jpg);
+      height: 48rem;
+      width: 54rem;
+      background-size: 54rem 48rem;
+      margin-right: 30px;
+      margin-left: 125px;
+   }
+
+    /* .box{
+           
+   }  */
+
+   .conteiner{
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      align-items: end;
+   }
+   
+   .box-2{
+      height: 23.6rem;
+      width: 25.5rem;
+      border-radius: 2rem;
+      background: #E8EFF2;
+      margin-left: -12.7rem;
+   }
+
+   .image-phone-and-keybord{
+      background-image: url(images/image-phone-and-keyboard.jpg);
+      height: 48rem;
+      width: 25.5rem;
+      background-size: 25.5rem 48rem;
+
+   }
+
+   .image-glass-and-keyboard{
+      background-image: url(images/image-glass-and-keyboard.jpg);
+      height: 48rem;
+      width: 44.5rem;
+      background-size:44.5rem 48rem;
+   }
+
+   .mechanical{
+      flex-direction: column;
+      gap:2.7rem;
+   }
+
+   .mechanical-description{
+      height: 13rem;
+      width: 25.5rem;
+   }
+
+   .card-conteiner{
+      grid-template-columns: 25% 25% 25% 25%;
+      padding-left: 165px;
+      padding-right: 165px;
+      padding-top: 168px;
+      padding-bottom: 128px;
+   }
+}
